@@ -4,6 +4,8 @@ services:
 env:
   - VERSION=10.6-2.3
 
+language: bash
+
 before_script:
   - IMAGE="postgres-plv8:$VERSION"
 
